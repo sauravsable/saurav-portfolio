@@ -16,7 +16,7 @@ export const contact: Contact[] = [
   },
   {
     title: "Location",
-    link: "mailto:your.email@example.com",
+    link: "https://maps.app.goo.gl/tJFUeVEmPvR9MVCg8",
     linkheading: "Aurangabad, Maharashtra, India",
     icon: FaMapMarkerAlt,
   },

@@ -86,7 +86,7 @@ export default function About() {
               <p className="text-primary mb-2">{item.company}</p>
               <ul className="text-secondary list-disc list-inside space-y-2">
                 {item.work.map((workitem, index) => (
-                  <li key={index}>{workitem}</li>
+                  <li key={index} className="list-none">{workitem}</li>
                 ))}
               </ul>
             </motion.div>
@@ -108,7 +108,7 @@ export default function About() {
           {education.map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
+              className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md mb-4"
               variants={fadeInUp}
               {...cardHoverSmall}
             >

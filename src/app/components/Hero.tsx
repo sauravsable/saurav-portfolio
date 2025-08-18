@@ -82,12 +82,13 @@ export default function Hero() {
               </Link>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Link
-                href="/contact"
+              <a
+                href="/Saurav_Resume.pdf"
+                download="Saurav-Sable-Resume.pdf"
                 className=" inline-block w-full bg-gray-500  md:w-auto text-gray-800 dark:text-white px-8 py-3 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
               >
-                Contact Me
-              </Link>
+                Download Resume
+              </a>
             </motion.div>
           </motion.div>
         </div>
