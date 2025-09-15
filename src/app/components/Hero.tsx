@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeInUp, fadeIn, scaleIn } from "@/utils/animations";
 import { socialMedia } from "../../contents/socialMedia";
-import { name, role } from "../../contents/staticData";
+import { name, role, resumeLink} from "../../contents/staticData";
 
 export default function Hero() {
   return (
@@ -83,7 +83,7 @@ export default function Hero() {
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <a
-                href="/Saurav_Resume.pdf"
+                href={resumeLink}
                 download="Saurav-Sable-Resume.pdf"
                 className=" inline-block w-full bg-gray-500  md:w-auto text-gray-800 dark:text-white px-8 py-3 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
               >

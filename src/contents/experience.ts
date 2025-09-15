@@ -3,7 +3,7 @@ import { Experience } from "@/types";
 export const experience: Experience[] = [
   {
     role: "Founding Engineer Intern",
-    company: "Zodiac.ai • April 2025 - Present",
+    company: "Zodiac.ai • April 2025 - August 2025",
     work: [
       "Built backend APIs with NestJS and integrated them into the frontend via React Query, enabling zero-downtime data fetching and scalable state management, processing 10K+ daily requests.",
       "Delivered two MVPs — QCom Analytics and Ads Analytics — within 3 months, enabling early adoption by 10+ users, faster product iterations, and accelerated go-to-market.",
